@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="sim_seg_node" exec="k_means" name="k_means">
+    <param from="$(find-pkg-share sim_seg_node)/config/param.yaml" />
+  </node>
+</launch>

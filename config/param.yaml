@@ -1,0 +1,9 @@
+/**:
+  ros__parameters:
+    class_num : 4
+    mode : k_means # or random
+    pub_seg_topic : /SegmentationInfo
+    sub_img_topic : /wamv/sensors/cameras/front_left_camera_sensor/image_raw
+
+    #debug_mode
+    debug : true
